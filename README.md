@@ -10,12 +10,12 @@ e direta, por isso que a tabela a ser usada sempre é dropada e recriada no iní
  
  3- Através de linha de comando innstalar o pacotes GO: "github.com/jmoiron/sqlx" (arquivo sqlx-master) e _ "github.com/lib/pq" (arquivo pq-1.0.0). Exemplo: go get github.com/jmoiron/sqlx e go get github.com/lib/pq
  
- 4- Criar banco de dados (postgresql denominado: PROJETO
- 
+ 4- Criar banco de dados postgresql denominado: PROJETO 
+  
  5- Manter no diretório raíz da aplicação os arquivos BaseTeste.txt (dados) e importBaseTeste.go
  
  6- Utilizando o prompt de comando do Go, executar a linha de comando: go run importBaseTeste.go
  
  7- No diretório raíz serão criados dois arquivos referentes a validação: ValidacaoCPF.txt e ValidacaoCNPJ.txt
  
- 8- No banco de dados PROJETO, tabela baseteste, serão criados os registros já sanitizados
+ 8- No banco de dados PROJETO, tabela baseteste, serão criados os registros já sanitizado
