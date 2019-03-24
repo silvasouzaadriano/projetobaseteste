@@ -4,8 +4,9 @@ e direta, por isso que a tabela a ser usada sempre é dropada e recriada no iní
 
 # Passos para utilização
 
-# 1- Instalar go1.12.1.windows-amd64 ou a versão mais atual
-# 2- Instalar postgresql-11.2-1-windows-x64 ou versão mais atual
+ 1- Instalar go1.12.1.windows-amd64 ou a versão mais atual
+ 
+ 2- Instalar postgresql-11.2-1-windows-x64 ou versão mais atual
 # 3- Através de linha de comando innstalar o pacotes GO: "github.com/jmoiron/sqlx" (arquivo sqlx-master) e _ "github.com/lib/pq" (arquivo pq-1.0.0). Exemplo: go get github.com/jmoiron/sqlx e go get github.com/lib/pq
 # 4- Criar banco de dados (postgresql denominado: PROJETO
 # 5- Manter no diretório raíz da aplicação os arquivos BaseTeste.txt (dados) e importBaseTeste.go
