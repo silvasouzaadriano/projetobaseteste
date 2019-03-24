@@ -1,5 +1,5 @@
 # Projeto baseteste
-Projeto BaseTeste desenvolvido e testado em ambiente Windows 7. Essa aplicação tem como objetivo ler um arquivo a ser sempre destinado no diretório raíz da mesma. Ao ler o arquivo será feito o cleanup dos campos e a validação dos campos referentes a CPF e CNPJ(nesse caso gerando arquivos de retorno).	Após a validação de todos registros do arquivo CSV (com tabulação definida como espaço), os mesmos serão criados na tabela baseteste do banco de dados PROJETO no postgresql. Como se trata de um arquivo de teste, foi usada uma abordagem simples
+Projeto BaseTeste desenvolvido e testado em ambiente Windows 7. Essa aplicação tem como objetivo ler um arquivo TXT/CSV tabulado com espaços. O mesmo sempre deverá estar no diretório raíz da aplicação. Ao ler o arquivo será feito o cleanup dos campos e a validação dos campos referentes a CPF e CNPJ(nesse caso gerando arquivos de retorno).	Após a validação de todos registros do arquivo, os mesmos serão criados na tabela baseteste do banco de dados PROJETO no postgresql. Como se trata de um arquivo de teste, foi usada uma abordagem simples
 e direta, por isso que a tabela a ser usada sempre é dropada e recriada no início da execução da aplicação.
 
 # Passos para utilização
